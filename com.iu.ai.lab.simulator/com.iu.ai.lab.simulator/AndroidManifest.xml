@@ -1,0 +1,59 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iu.ai.lab"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/aima_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="MenuActivity"
+            android:label="@string/title_activity_menu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NQueenAttackPairs.NQueenAttackingPairsActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".NQueenHillClimbing.HillClimbingNQueenAttackingPairsActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".EightPuzzle.EightPuzzleCalculationActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".EightPuzzle.SetterTargetEightPuzzleActivity"
+            android:label="@string/title_activity_setter_target_eight_puzzle" >
+        </activity>
+        <activity
+            android:name=".FirstOderLogic.FOLActivity"
+            android:label="@string/title_activity_fol" >
+        </activity>
+        <activity
+            android:name=".FBSim.FBSimActivity"
+            android:label="@string/title_activity_football_simulator" >
+        </activity>
+        <activity
+            android:name=".CNFConverter.CNFConveterActivity"
+            android:label="@string/title_activity_cnfconveter"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".CNFConverter.CNFResultActivity"
+            android:label="@string/title_activity_cnfresult"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>       
+    </application>
+
+</manifest>

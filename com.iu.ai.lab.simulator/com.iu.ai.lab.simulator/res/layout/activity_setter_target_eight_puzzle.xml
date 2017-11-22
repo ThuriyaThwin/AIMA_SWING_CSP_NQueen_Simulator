@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Init array state"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editTextInit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:inputType="numberSigned"
+        android:text="123456780" />
+
+    <TextView
+        android:id="@+id/textViewInit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextInit"
+        android:text="Target array state"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editTextTarget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewInit"
+        android:inputType="numberSigned"
+        android:text="123456780" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editTextTarget" >
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:background="#0080FF"
+            android:text="Clear"
+            android:textColor="#eef6ff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonSet"
+            android:layout_width="136dp"
+            android:textColor="#eef6ff"
+            android:textStyle="bold"
+            android:background="#004D99"
+            android:layout_height="wrap_content"
+            android:text="Set" />
+    </LinearLayout>
+
+</RelativeLayout>

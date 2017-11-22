@@ -1,0 +1,8 @@
+//this is a comment
+
+A => (D ^ F)
+B => (C v E)
+(E ^ F) => H
+A
+B
+-C

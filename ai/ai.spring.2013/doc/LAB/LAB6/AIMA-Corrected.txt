@@ -1,0 +1,14 @@
+		//Modify by LTSACH -----------------------MAY 15, 2011
+		Set<Sentence> set = new HashSet<Sentence>();
+		if (sentence instanceof Symbol) {
+			set.add(sentence);
+		} else if (sentence instanceof UnarySentence) {
+			set.add(sentence);
+		} else if(detector.containsEmbeddedAnd(sentence)){
+			set = (Set<Sentence>) sentence.accept(this, set);
+		}
+		else{
+			set.add(sentence);
+		}
+		return set;
+		//END-Modify by LTSACH ----------------------- 

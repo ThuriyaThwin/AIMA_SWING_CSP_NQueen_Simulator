@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">AIMA Student Aid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_hill_climbing_nqueen_attacking_pairs">HillClimbingNQueenAttackingPairsActivity</string>
+    <string name="title_activity_menu">AIMA Student Aid</string>
+    <string name="title_activity_setter_target_eight_puzzle">Setter Eight Puzzle</string>
+    <string name="title_activity_fol">FOLActivity</string>
+    <string name="title_activity_football_simulator">FootballSimulator</string>
+    <string name="title_activity_cnfconveter">CNFConveterActivity</string>
+    <string name="title_activity_cnfresult">CNFResultActivity</string>
+    <string name="title_activity_mine_sweeper_input">MineSweeperInputActivity</string>
+
+</resources>
